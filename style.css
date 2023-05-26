@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --cor-primaria: #E8E8E8;
+    --cor-secundaria: #51C4D3;
+    --cor-terciaria: #BBBFCA;
+    --cor-black: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cor-primaria);
+}
+
+strong {
+    color: var(--cor-secundaria);
+}
+
+.container {
+    max-width: 1000;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    margin-left: 8px;
+}
+
+nav ul li a {
+    color: var(--cor-black);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: var(--cor-terciaria);
+    color: ghostwhite;
+}
+
+#inicio h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.inicio-paragrafo {
+    display: flex;
+    justify-content: center;
+}
+
+.ver-projetos {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-black);
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: var(--cor-terciaria);
+    color: white;
+}
+
+#about h2 {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    padding: 30px 0;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+.project {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#projects h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.project p {
+    text-align: center;
+}
+
+.link-projeto {
+    display: inline-block;
+    color: var(--cor-black);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.link-projeto:hover {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-black);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+#contact {
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+#contact ul li a {
+    color: var(--cor-black);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#contact ul li a:hover {
+    color: var(--cor-terciaria);
+}
+
+.rede-social {
+    font-size: 20px;
+}
+
+.icones-sociais {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.icones-sociais li {
+    margin-right: 10px;
+}
+
+.icones-sociais li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-black);
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.icones-sociais li:hover {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-black);
+}
+
+footer {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-black);
+    padding: 10px;
+    text-align: center;
+}
